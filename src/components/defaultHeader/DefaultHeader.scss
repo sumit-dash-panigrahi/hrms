@@ -1,0 +1,12 @@
+header {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+
+    h3 {
+
+        padding: .5rem 1rem;
+        margin: 0;
+        box-shadow: inset 1px 1px 10px 1px rgba($color: #6c6c6c, $alpha: 1.0);
+    }
+}

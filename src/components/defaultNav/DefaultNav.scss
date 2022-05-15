@@ -1,0 +1,35 @@
+$base-color: rgb(30, 30, 30);
+$base-inset: rgba(0, 0, 0, 0.863);
+$base-outset: rgba(0, 0, 0, .222);
+
+nav {
+    background-color: $base-color;
+    position: sticky;
+    top: 0;
+    box-shadow:
+        inset -3px 3px 5px 1px $base-inset,
+        -2px 2px 10px 1px $base-outset,
+        inset 3px -3px 5px 1px $base-inset,
+        2px -2px 10px 1px $base-outset;
+
+    ;
+
+    ul {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+
+        li {
+            // display: block;
+            padding: .5rem 1rem;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+            &:hover {
+                cursor: pointer;
+                border-radius: .5rem;
+                border: 1px solid black;
+            }
+        }
+    }
+}
