@@ -3,6 +3,6 @@
 </style>
 <template>
     <header>
-        <h3>Amiti Software Pvt Ltd</h3>
+        <h3>https://sumit-dash-panigrahi.github.io/hrms/</h3>
     </header>
 </template>
